@@ -20,9 +20,9 @@
  
 <img src="assets/contact.svg" width="100%" alt="Let's build something. Open to SDE, Full Stack Developer, and AI Engineer roles."/>
 
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN/"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/amrutha-peketi-13ap21852"><img src="assets/btn-linkedin.svg" height="46" alt="LinkedIn"/></a>
 <a href="https://github.com/AmruthaPeketi-13"><img src="assets/btn-github.svg" height="46" alt="GitHub"/></a>
-<a href="https://leetcode.com/u/YOUR_LEETCODE/"><img src="assets/btn-leetcode.svg" height="46" alt="LeetCode"/></a>
+<a href="https://leetcode.com/u/amruthaaa__831/"><img src="assets/btn-leetcode.svg" height="46" alt="LeetCode"/></a>
 <a href="mailto:amruthapeketi05@gmail.com"><img src="assets/btn-email.svg" height="46" alt="Email"/></a>
 
 </div>
