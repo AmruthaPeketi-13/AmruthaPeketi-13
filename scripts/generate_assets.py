@@ -96,10 +96,11 @@ def experience():
 
 # ---------------------------------------------------------------- tech stack
 def icon_inner(name):
-    s = (ICONS / f"{name}.svg").read_text()
+    s = (ICONS / f"{name}.svg").read_text(encoding="utf-8")
     vb = re.search(r'viewBox="([^"]+)"', s).group(1)
     inner = re.sub(r"^.*?<svg[^>]*>", "", s, count=1, flags=re.S).rsplit("</svg>", 1)[0]
-    inner = re.sub(r"<title>.*?</title>", "", inner)
+    inner = re.sub(r"<metadata.*?</metadata>", "", inner, flags=re.S)
+    inner = re.sub(r"<title>.*?</title>", "", inner, flags=re.S)
     inner = re.sub(r'\bid="([^"]+)"', lambda m: f'id="{name}-{m.group(1)}"', inner)
     inner = re.sub(r"url\(#([^)]+)\)", lambda m: f"url(#{name}-{m.group(1)})", inner)
     inner = re.sub(r'(xlink:href|href)="#([^"]+)"', lambda m: f'{m.group(1)}="#{name}-{m.group(2)}"', inner)
