@@ -19,7 +19,7 @@
 <img src="assets/achievements.svg" width="100%" alt="Achievements: winner of Prakalp 2026, Smart India Hackathon 2025 national finalist, winner of E-Summit 2026, ICRCESM 2025 research publication, Executive Body Member of the Association of Computer Engineers."/>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AmruthaPeketi-13&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&hide=prs,issues&card_width=495&title_color=96701a&icon_color=96701a&text_color=1b2a41&bg_color=f8f5ec&border_color=e3d8b6" width="495" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AmruthaPeketi-13&show_icons=true&include_all_commits=true&count_private=true&card_width=495&title_color=96701a&icon_color=96701a&text_color=1b2a41&bg_color=f8f5ec&border_color=e3d8b6" width="495" alt="GitHub Stats" />
 </p>
 
 <p align="center">
