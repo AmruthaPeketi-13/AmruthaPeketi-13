@@ -45,8 +45,8 @@ def about():
         y += 27
     y += 14
     tiles = [("200+", "LeetCode problems solved"), ("8.82", "CGPA, B.Tech CSE"),
-             ("2×", "First-place wins"), ("40%", "Faster incident resolution")]
-    tw, gap = 172, 14
+             ("2×", "First-place wins")]
+    tw, gap = 230, 20
     for i, (num, lab) in enumerate(tiles):
         x = 50 + i * (tw + gap)
         d.raw(f'<rect x="{x}" y="{y}" width="{tw}" height="100" rx="10" fill="{NAVY2}" stroke="{GOLD_D}"/>')
